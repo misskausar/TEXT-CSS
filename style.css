@@ -1,35 +1,41 @@
 /* body{
-    font-family: cursive;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
 
-h1,
+/* h1,
 h2{
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.first{
+/* .credits{
     font-family: 'Courier New', Courier, monospace;
 } */
 
-/* FONT-SIZE */
+/* FONT SIZE */
 /* pixels */
 /* p{
-    font-size: 30px;
+    font-size: 16px;
+} */
+/* percentage */
+/* p{
+    font size: 500%;
 } */
 /* default values */
 /* p{
-    font-size: larger;
+   font-size: larger; 
 } */
 /* p{
     font-size: 3em;
 } */
 
 /* FONT FACE */
-@font-face{
-    font-family: 'mine';
-    src: url('./fonts/DancingScript-Bold.ttf');
+@font-face {
+    font-family: mine;
+    src: url(./fonts/DancingScript-Bold.ttf);
 }
-
 h1{
-    font-family: 'mine';
+    font-family: mine;
+}
+p{
+    font-family: mine;
 }
