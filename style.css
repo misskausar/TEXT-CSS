@@ -20,3 +20,16 @@ h2{
 /* p{
     font-size: larger;
 } */
+/* p{
+    font-size: 3em;
+} */
+
+/* FONT FACE */
+@font-face{
+    font-family: 'mine';
+    src: url('./fonts/DancingScript-Bold.ttf');
+}
+
+h1{
+    font-family: 'mine';
+}
