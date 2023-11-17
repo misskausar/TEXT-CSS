@@ -96,6 +96,102 @@ h1{
 } */
 
 /* LINE HEIGHT/ LEADING */
-p{
+/* p{
     line-height: 14px;
+} */
+
+/* LETTER AND WORD SPACING */
+/* word spacing */
+/* h1{
+    word-spacing: 5px;
+} */
+/* letter spacing */
+/* h1{
+    letter-spacing: -9px;
+} */
+ 
+/* text align */
+/* p{
+    text-align: center;
 }
+p{
+    text-align: justify;
+} */
+
+/* vertical alignmemnt */
+/* img{
+    vertical-align: top;
+} */
+
+/* text indent */
+/* p{
+    text-indent: 50px
+} */
+
+/* text shadow */
+/* h1{
+    background-color: #cccccc;
+color: #ffffff;
+text-shadow: 2px 2px 7px #111111;}
+} */
+
+/* first letter or first line */
+/* p::first-letter{
+    color: red;
+} */
+/* p::first-line{
+    color: red;
+} */
+
+/* styling links */
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color:red ;
+} */
+
+/* responding to user */
+/* hover */
+ /* input.button{
+    background-color: red;
+}
+input.button:active{
+    background-color: wheat;
+} */
+    
+/* input.button:focus{
+    background-color: aqua;
+}
+input #textbox:focus {
+    background-color: pink;
+} */
+
+/* attributes selectors */
+/* existence */
+/* h1[test]{
+    color: red;
+} */
+/* equality */
+/* h1[test="hi"]{
+    color: green;
+} */
+/* space */
+/* h1[test~='jenn']{
+    color: pink;
+} */
+/* prefix */
+/* h1[test^="h"]{
+    color: red;
+} */
+
+/* substring */
+/* h1[test*="ll"]{
+    color: red;
+} */
+
+/* suffix */
+/* h1[test$="l"]{
+    color: red;
+} */
