@@ -29,7 +29,7 @@ h2{
 } */
 
 /* FONT FACE */
-@font-face {
+/* @font-face {
     font-family: mine;
     src: url(./fonts/DancingScript-Bold.ttf);
 }
@@ -38,4 +38,64 @@ h1{
 }
 p{
     font-family: mine;
+} */
+
+/* FONT WEIGHT */
+/* p{
+    font-weight: 900;
+} */
+
+/* FONT STYLE */
+/* h1{
+    font-style: italic;
+} */
+
+/* using id selector and comparing 3 styles */
+/* #normal{
+    font-style: normal;
+}
+
+#italic{
+    font-style: italic;
+}
+
+#oblique{
+    font-style: oblique;
+} */
+
+/* TEXT TRANSFORMATION */
+/* hello guys <= lowercase */
+/* HELLO GUYS <= uppercase */
+/* Hello Guys <= capitalized */
+/* h1{
+    text-transform: lowercase;
+}
+h1{
+    text-transform: capitalize
+}
+h1{
+    text-transform: uppercase;
+} */
+
+/* TEXT DECORATION */
+/* #none{
+    text-decoration: none;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+
+#line-through{
+    text-decoration: line-through;
+}
+#blink{
+    text-decoration: blink;
+} */
+
+/* LINE HEIGHT/ LEADING */
+p{
+    line-height: 14px;
 }
